@@ -39,7 +39,7 @@ The system continuously measures the distance to approaching obstacles and trigg
 
 ##  Circuit Diagram
 
-![Circuit Layout](docs/circuit.png)
+![Circuit Layout](circuit.png)
 
 ---
 

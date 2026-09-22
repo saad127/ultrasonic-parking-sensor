@@ -59,8 +59,10 @@ The system continuously measures the distance to approaching obstacles and trigg
 
 ##  Working Logic & Calculation
 
-The sensor calculates distance based on the speed of sound in air ($340\text{ m/s} = 0.034\text{ cm/\mu s}$):
+The sensor calculates distance based on the speed of sound in air (340 m/s or 0.034 cm/µs):
 
-$$\text{Distance (cm)} = \frac{\text{Echo Pulse Duration (\mu s)} \times 0.034}{2}$$
+$$\text{Distance (cm)} = \frac{\text{Duration} \times 0.034}{2}$$
 
-Source code is available at [`src/parking_sensor.ino`](./src/parking_sensor.ino).
+Where **Duration** is the time in microseconds ($\mu\text{s}$) measured by `pulseIn()`.
+
+Source code is available at [`parking_sensor.ino`](./parking_sensor.ino).

@@ -4,7 +4,7 @@ An Arduino-based automotive parking assist system using the HC-SR04 ultrasonic d
 
 ---
 
-## 📌 Overview & Distance Logic
+##  Overview & Distance Logic
 
 The system continuously measures the distance to approaching obstacles and triggers three intuitive feedback levels:
 
@@ -23,7 +23,7 @@ The system continuously measures the distance to approaching obstacles and trigg
 
 ---
 
-## 🔌 Circuit Pinout
+##  Circuit Pinout
 
 | Component | Pin / Terminal | Arduino Pin | Mode |
 | :--- | :---: | :---: | :---: |
@@ -37,13 +37,13 @@ The system continuously measures the distance to approaching obstacles and trigg
 
 ---
 
-## 📐 Circuit Diagram
+##  Circuit Diagram
 
 ![Circuit Layout](docs/circuit.png)
 
 ---
 
-## 🛠️ Hardware Requirements (BOM)
+##  Hardware Requirements (BOM)
 
 | ID | Component | Quantity | Value / Details |
 | :---: | :--- | :---: | :--- |
@@ -57,7 +57,7 @@ The system continuously measures the distance to approaching obstacles and trigg
 
 ---
 
-## 💻 Working Logic & Calculation
+##  Working Logic & Calculation
 
 The sensor calculates distance based on the speed of sound in air ($340\text{ m/s} = 0.034\text{ cm/\mu s}$):
 
